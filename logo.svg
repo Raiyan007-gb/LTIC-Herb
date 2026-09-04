@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="900" height="320" role="img" aria-labelledby="title desc">
+<title id="title">LTIC-Herb logo</title>
+<desc id="desc">Herbarium sheet with transformer leaf and long-tail curve, LTIC-Herb text</desc>
+<!-- Background -->
+<rect x="0" y="0" width="900" height="320" rx="32" fill="#FFFFFF"/>
+<!-- Icon container -->
+<rect x="24" y="32" width="256" height="256" rx="60" fill="#1A3C34"/>
+<rect x="24" y="32" width="256" height="256" rx="60" fill="none" stroke="#0E2722" stroke-width="4"/>
+<!-- Herbarium sheet -->
+<rect x="74" y="62" width="156" height="196" rx="14" fill="#F5F1E6" stroke="#E8DFC8" stroke-width="3"/>
+<!-- ViT patch grid faint -->
+<g stroke="#1A3C34" stroke-width="1" opacity="0.12">
+<line x1="100" y1="62" x2="100" y2="258"/>
+<line x1="126" y1="62" x2="126" y2="258"/>
+<line x1="152" y1="62" x2="152" y2="258"/>
+<line x1="178" y1="62" x2="178" y2="258"/>
+<line x1="204" y1="62" x2="204" y2="258"/>
+<line x1="74" y1="95" x2="230" y2="95"/>
+<line x1="74" y1="128" x2="230" y2="128"/>
+<line x1="74" y1="161" x2="230" y2="161"/>
+<line x1="74" y1="194" x2="230" y2="194"/>
+<line x1="74" y1="227" x2="230" y2="227"/>
+</g>
+<!-- Pressed plant stem -->
+<path d="M152 88 C 150 130, 154 170, 148 238" fill="none" stroke="#2F6B4F" stroke-width="5" stroke-linecap="round"/>
+<!-- Leaves left/right - botanical specimen -->
+<g fill="#3A8A5E" stroke="#2F6B4F" stroke-width="2">
+<ellipse cx="132" cy="128" rx="22" ry="12" transform="rotate(-28 132 128)"/>
+<ellipse cx="172" cy="148" rx="22" ry="12" transform="rotate(28 172 148)"/>
+<ellipse cx="132" cy="176" rx="20" ry="11" transform="rotate(-28 132 176)"/>
+<ellipse cx="172" cy="196" rx="20" ry="11" transform="rotate(28 172 196)"/>
+<ellipse cx="152" cy="108" rx="14" ry="18"/>
+</g>
+<!-- Leaf veins = attention lines -->
+<g stroke="#F5F1E6" stroke-width="1.5" opacity="0.9">
+<line x1="118" y1="128" x2="146" y2="128"/>
+<line x1="158" y1="148" x2="186" y2="148"/>
+<line x1="119" y1="176" x2="145" y2="176"/>
+</g>
+<!-- Long-tail curve overlay = residual fusion -->
+<path d="M84 226 C 120 226, 140 210, 160 190 C 185 165, 200 130, 222 96" fill="none" stroke="#E9A426" stroke-width="7" stroke-linecap="round"/>
+<circle cx="222" cy="96" r="8" fill="#E9A426" stroke="#FFFFFF" stroke-width="3"/>
+<!-- Fusion node dots (3-stage) -->
+<g fill="#E9A426" stroke="#1A3C34" stroke-width="2">
+<circle cx="120" cy="226" r="6"/>
+<circle cx="160" cy="190" r="6"/>
+</g>
+<!-- Wordmark -->
+<text x="310" y="142" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="#1A3C34">LTIC<tspan fill="#3A8A5E">-Herb</tspan></text>
+<text x="314" y="182" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="3.5" fill="#5A6E66">LONG-TAILED IMAGE CLASSIFICATION</text>
+<g>
+<rect x="314" y="200" width="132" height="34" rx="17" fill="#1A3C34"/>
+<text x="330" y="223" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="1.5" fill="#FFFFFF">IJCNN 2025</text>
+<rect x="454" y="200" width="210" height="34" rx="17" fill="none" stroke="#E9A426" stroke-width="2.5"/>
+<text x="472" y="223" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" fill="#1A3C34">CLIP-ViT • Fusion</text>
+</g>
+</svg>

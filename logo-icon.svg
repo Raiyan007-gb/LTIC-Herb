@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-labelledby="t d">
+<title id="t">LTIC-Herb icon</title>
+<desc id="d">App icon - herbarium specimen with long-tail</desc>
+<rect x="0" y="0" width="512" height="512" rx="120" fill="#1A3C34"/>
+<rect x="0" y="0" width="512" height="512" rx="120" fill="none" stroke="#0E2722" stroke-width="8"/>
+<rect x="106" y="52" width="300" height="408" rx="28" fill="#F5F1E6" stroke="#E8DFC8" stroke-width="6"/>
+<g stroke="#1A3C34" stroke-width="2" opacity="0.1">
+<line x1="166" y1="52" x2="166" y2="460"/>
+<line x1="226" y1="52" x2="226" y2="460"/>
+<line x1="286" y1="52" x2="286" y2="460"/>
+<line x1="346" y1="52" x2="346" y2="460"/>
+<line x1="106" y1="134" x2="406" y2="134"/>
+<line x1="106" y1="216" x2="406" y2="216"/>
+<line x1="106" y1="298" x2="406" y2="298"/>
+<line x1="106" y1="380" x2="406" y2="380"/>
+</g>
+<path d="M256 108 C 252 190, 260 280, 248 428" fill="none" stroke="#2F6B4F" stroke-width="10" stroke-linecap="round"/>
+<g fill="#3A8A5E" stroke="#2F6B4F" stroke-width="4">
+<ellipse cx="212" cy="188" rx="44" ry="24" transform="rotate(-28 212 188)"/>
+<ellipse cx="302" cy="230" rx="44" ry="24" transform="rotate(28 302 230)"/>
+<ellipse cx="212" cy="286" rx="40" ry="22" transform="rotate(-28 212 286)"/>
+<ellipse cx="302" cy="328" rx="40" ry="22" transform="rotate(28 302 328)"/>
+<ellipse cx="256" cy="142" rx="28" ry="36"/>
+</g>
+<path d="M126 400 C 198 400, 238 368, 278 330 C 328 278, 358 208, 402 132" fill="none" stroke="#E9A426" stroke-width="14" stroke-linecap="round"/>
+<circle cx="402" cy="132" r="16" fill="#E9A426" stroke="#FFFFFF" stroke-width="6"/>
+<g fill="#E9A426" stroke="#1A3C34" stroke-width="4">
+<circle cx="198" cy="400" r="12"/>
+<circle cx="278" cy="330" r="12"/>
+</g>
+</svg>

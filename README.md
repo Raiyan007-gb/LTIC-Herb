@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="LTIC-Herb logo" width="600"/>
+</p>
+
 # LTIC-Herb : Long-tailed Image Classification on the Specimens of Herbarium Dataset (IJCNN 2025)
 
 [![IJCNN 2025](https://img.shields.io/badge/IJCNN-2025-blue.svg)](https://ieeexplore.ieee.org/abstract/document/11228538)
