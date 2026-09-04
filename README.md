@@ -1,5 +1,16 @@
 # LTIC-Herb : Long-tailed Image Classification on the Specimens of Herbarium Dataset (IJCNN 2025)
 
+[![IJCNN 2025](https://img.shields.io/badge/IJCNN-2025-blue.svg)](https://ieeexplore.ieee.org/abstract/document/11228538)
+[![IEEE Xplore](https://img.shields.io/badge/IEEE-Xplore-red.svg)](https://ieeexplore.ieee.org/abstract/document/11228538)
+[![GitHub stars](https://img.shields.io/github/stars/Raiyan007-gb/LTIC-Herb.svg?style=social&label=Star)](https://github.com/Raiyan007-gb/LTIC-Herb)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)](https://www.python.org/)
+[![CLIP-ViT](https://img.shields.io/badge/Backbone-CLIP--ViT-orange.svg)](https://github.com/openai/CLIP)
+
+> Official implementation of **"Long-tailed Image Classification on the Specimens of Herbarium Dataset"**, accepted at **2025 International Joint Conference on Neural Networks (IJCNN)**.
+
+**📄 Paper:** https://ieeexplore.ieee.org/abstract/document/11228538  
+**💻 Repository:** https://github.com/Raiyan007-gb/LTIC-Herb
+
 ## Overview
 
 Modern transformer-based image encoders have revolutionized computer vision, consistently achieving new benchmarks in various tasks. However, challenges like the long-tail distribution of species in botanical datasets and incomplete representation of rare specimens in herbarium collections hinder accurate classification of diverse plant species. We propose a three-stage approach: leveraging pre-trained transformers for feature extraction, introducing parameter specialization to address class imbalance, and employing a residual fusion mechanism for unified predictions. Evaluations on the Herbarium 2021 and Herbarium 2022 datasets demonstrate state-of-the-art performance across few-shot, medium-shot, and many-shot settings. This work highlights the potential of transformer-based encoders with targeted improvements in advancing biodiversity monitoring and botanical research.
@@ -28,6 +39,23 @@ Modern transformer-based image encoders have revolutionized computer vision, con
 
 To use this model, please adjust the model datapath accordingly in the code (e.g., update the `--data_path` argument in `R50.sh` or `CLIP_VIT_LONGTAIL.py`). Additionally, ensure that the dataset is presized using the `presizer.py` script before training or evaluation. The `presizer.py` script processes images to a target resolution (default 512x512) with central cropping (default 448x448), preparing the Herbarium dataset for optimal model input.
 
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@INPROCEEDINGS{11228538,
+  author={Ahmed, Raiyan and Naheen, Intisar Tahmid and Haque, Yashfinul and Abir, Md. Towsif and Farazi, Moshiur and Rahman, Shafin},
+  booktitle={2025 International Joint Conference on Neural Networks (IJCNN)},
+  title={Long-tailed Image Classification on the Specimens of Herbarium Dataset},
+  year={2025},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Computer vision;Adaptation models;Heavily-tailed distribution;Biological system modeling;Neural networks;Transformers;Feature extraction;Labeling;Monitoring;Image classification;CLIP;long-tail distribution;botanical classification;Herbarium dataset;vision transformer},
+  doi={10.1109/IJCNN64981.2025.11228538}}
+```
+
 ## Acknowledgements
 
 We thank the providers of the Herbarium 2021 and Herbarium 2022 datasets for their contributions to botanical research. We also acknowledge the support of the open-source community, particularly the developers of CLIP and PyTorch, which enabled this work.
@@ -35,3 +63,5 @@ We thank the providers of the Herbarium 2021 and Herbarium 2022 datasets for the
 ## Contact
 
 If you have any questions, feel free to contact us through email (raiyan2025@gmail.com) or GitHub issues. Enjoy!
+
+⭐ If you find this repository helpful, please consider starring it!
